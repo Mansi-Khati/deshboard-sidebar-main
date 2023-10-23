@@ -1,0 +1,230 @@
+.dash
+{
+    padding: 0em 2em;
+    margin: 0;
+    background-color: #f5f6f8;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub{
+    width:20%;
+    height: 110px;
+    background-color: #fefeff;
+    border-radius: 0.75em;
+    padding: 1rem;
+}
+
+.row2
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em 0em;
+}
+
+.graph
+{
+    width:68%;
+    height: 300px;
+    background-color: #fefeff;
+    border-radius: 0.75em;
+}
+
+.pie
+{
+    width:29%;
+    height: 300px;
+    background-color: #fefeff;
+    border-radius: 0.75em;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pro
+{
+    font-size: 20px;
+    font-family: 700;
+    width: 50%;
+}
+
+.last
+{
+    font-size: 13px;
+    padding-right: 2%;
+    background-color: #f5f5f5;
+    color: #A9A9A9;
+    height: 80%;
+    text-align: center;
+    width:15%;
+}
+
+.search1 input[type="text"] {
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    display: flex;
+    width:5%;
+    height: 90%;
+    background-color: #f5f5f5;
+    width: 95%;
+    text-align: center;
+    color: #5a5858;
+  }
+
+div.sub{
+    display: flex;
+}
+
+.sub div.image 
+{
+    padding: 0;
+    width: 45%;
+    height: 97%;
+    margin-top:3px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.earn div.image{
+    background-color: #deffee;
+}
+
+.ord div.image{
+    background-color: #e7dbff;
+}
+
+.bal div.image{
+    background-color: #cdf3ff;
+}
+
+.tot div.image{
+    background-color: #ffdbec;
+}
+
+.sub div.content {
+    padding-left:0.75em;
+}
+
+.content div.h 
+{
+    margin-top:25%;
+    color:#878787;
+    font-size: 12px;
+}
+
+.content div.price
+{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.content div.inc
+{
+    font-size: 10px;
+    display:flex;
+    font-weight: 400;
+}
+
+.earn div.per, .tot div.per 
+{
+    color:#009a25;
+}
+
+.bal div.per, .ord div.per
+{
+    color:#c6002c;
+}
+
+.row3
+{
+    background-color: #fefeff;
+    padding: 1em 1.5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75em;
+}
+
+.row3 div.r2{
+    margin-top: 2em;
+    display: flex;
+    color:#b7bac2;
+    font-size: 0.9em;
+}
+.row3 div.r3{
+    display: flex;
+}
+
+.row3 div.r4{
+    display: flex;
+}
+
+.row3 div.r5
+{
+    display: flex;
+}
+
+       
+hr{
+    border: 1px solid #ccc;
+    margin: 1em 0em 1em 0em;
+}
+
+
+.r2 div.product, .r3 div.product, .r4 div.product , .r5 div.product
+{
+    width:60%;
+}
+
+.r2 div.stock, .r3 div.stock, .r4 div.stock , .r5 div.stock
+{
+    width:13%;
+}
+
+.r2 div.price, .r3 div.price, .r4 div.price , .r5 div.price
+{
+    width:13%;
+}
+
+.r2 div.sales, .r4 div.sales, .r4 div.sales , .r5 div.sales
+{
+    width:13%;
+}
+
+div.r3, div.r4, div.r5
+{
+    font-size: 0.8em;
+    color:#5a5858;
+}
+
+div.product
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+div.right{
+    margin-left: 1em;
+}
+
+.right div.head
+{
+    font-weight: 500;
+}
+
+div.sent
+{
+    font-size: 0.7em;
+    color:#b4b4b4;
+}
+

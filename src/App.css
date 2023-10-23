@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    height: 100vh;
+}
+main{
+    width: 100%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0e093b;
+    color: #fff;
+    height: 100vh;
+    width: 20%;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px 30px 15px;
+    background: #0e093b;
+}
+.logo{
+    font-size: 23px;
+    background: #0e093b;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+    background: #0e093b;
+}
+.fabars
+{
+    background: #0e093b;
+}
+.down{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    background: #0e093b;
+}
+.link{
+    display: flex;
+    justify-content: start;
+    color: #9e9da6;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+    background: #0e093b;
+}
+.link:hover{
+    background:2d2d69;
+    color: white;
+    transition: all 0.5s;
+}
+.active{
+    background: #2d2d69;
+    color: white;
+}
+.icon, .link_text{
+    font-size: 15px;
+}
+
+.account{
+    display: flex;
+    position: relative;
+    top: 10em;
+    padding:0.25em 0.5em;
+    background: #0e093b;
+}
+.account:hover{
+    border-radius: 0.5rem;
+    background: #302d4d;
+}
+.name{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.desn{
+    font-size: 12px;
+    color: #9e9da6;
+}
